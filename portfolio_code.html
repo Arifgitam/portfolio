@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Quicksand', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/random') center/cover fixed no-repeat;
+            color: #000;
+        }
+
+        .portfolio {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.2s;
+        }
+
+        .portfolio:hover {
+            transform: scale(1.02);
+        }
+
+        .header {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #3498db;
+        }
+
+        .project {
+            margin-bottom: 30px;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project img:hover {
+            transform: scale(1.1);
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .contact-info a {
+            color: #3498db;
+            font-size: 1.5em;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .contact-info a:hover {
+            color: #2980b9;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap">
+    <title>Your New Portfolio</title>
+</head>
+<body>
+
+    <div class="portfolio">
+        <div class="header">
+            Arif
+            <p>student</p>
+        </div>
+
+        <div class="section">
+            <h2>About Me</h2>
+            <p>Hello there! 👋 I'm Arif, currently pursuing my passion for Computer Science Engineering at Gitam University. Coding is not just a course for me; it's a language that allows me to bring ideas to life and solve real-world problems.
+
+Beyond the lines of code, you'll often find me immersed in the world of music creation. Whether it's crafting melodies or experimenting with beats, making music is my creative escape. The fusion of technology and music is where I find my unique rhythm.
+
+Join me on this exciting journey of exploring the digital landscape through code and expressing emotions through music. Let's create a symphony of innovation and creativity together! 🎶💻🚀</p>
+        </div>
+
+        
+        <div class="section contact-info">
+            <h2>Contact Information</h2>
+            <div class="contact-info">
+                <a href="mailto:your.email@example.com"><i class="far fa-envelope"></i></a>
+                <a href="tel:+1234567890"><i class="fas fa-phone"></i></a>
+                <a href="https://linkedin.com/yourprofile"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/yourusername"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Contact me at: mshaik8@gitam.in </p>
+        </div>
+    </div>
+
+</body>
+</html>
